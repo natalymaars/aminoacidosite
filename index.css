@@ -1,0 +1,47 @@
+body{
+    color: #a39cf9;
+    background-color:#443d4e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+align-items: center;
+padding: 10px;
+}
+
+a{color:#a39cf9;
+text-decoration: solid;
+}
+
+li:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    background-color:rgba(0, 0, 0,0.5)
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #a39cf9;
+}
+
+.logo{
+    text-align: center;
+}
+
+.titulobanda{
+    text-align: center;
+    color: #a39cf9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.albumnovo{
+    text-align: center;
+    color: #715f9d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: dotted;
+
+}

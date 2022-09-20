@@ -1,0 +1,35 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url(./img/psicopurple.jpg)
+}
+.caixalogin{
+    color: #ffc3f4;
+    background-color: rgba(51, 15, 65, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px ;
+    padding: 80px;
+}
+input{
+    outline: none;
+    padding: 18px;
+    border-radius: 9px;
+    font-size: 16px;
+    border: none;
+
+}
+button{
+    width: 100%;
+    background-color: #f78cfa;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 13px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #a05bb4;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro para Atendimento</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="formulario">
+
+            <form action="#">
+                    <div class="formheader">
+                         <div class="titulologin">
+                             <h1>.::Cadastre-se para o atendimento::.</h1>
+                        </div>
+                    </div>
+
+                <div class="inputs">
+
+                        <div class="caixainput">
+                            <label for="Nome">Nome</label>
+                            <input id="Nome" type="text" name="Nome" placeholder="Bota seu nome completo" required>
+                        </div>
+
+                        <div class="caixainput">
+                            <label for="Nome">Usuario</label>
+                            <input id="usuario" type="text" name="Usuario" placeholder="Bota seu usuario" required>
+                        </div>
+
+                        <div class="caixainput">
+                            <label for="celular">Tem celular, gata?</label>
+                            <input id="Celular" type="number" name="Celular" placeholder="(xx) xxxxx-xxxx" required>
+                        </div>
+
+                        <div class="caixainput">
+                            <label for="Senha">Bola uma Senha</label>
+                            <input id="Senha" type="password" name="Senha" placeholder="Digite sua senha">
+                        </div>
+
+                        <div class="caixainput">
+                            <label for="ConfirmeSenha">Prove que sabe sua senha</label>
+                            <input id="ConfirmeSenha" type="password" name="ConfirmeSenha" placeholder="Confirme sua senha">
+                        </div>
+
+                </div>
+
+                    <div class="inputgeneros">
+
+                        <div class="Titulogenero">
+                           <h4>.::Gêneros::.</h4> 
+                        </div>
+
+                        <div class="Grupogenero">
+
+                            <div class="Inputgenero">
+                                <input type="radio" id="Feminino" name="genero">
+                                <label for="feminino">Mina</label>
+                            </div>
+
+                            <div class="Inputgenero">
+                                <input type="radio" id="Masculino" name="genero">
+                                <label for="Masculino">Mano</label>
+                            </div>
+
+                            <div class="Inputgenero">
+                                <input type="radio" id="nãobinario" name="genero">
+                                <label for="nãobinario">non binarie</label>
+                            </div>
+
+                            <div class="Inputgenero">
+                                <input type="radio" id="naoquero" name="genero">
+                                <label for="naoquero">Não interessa praa você, palhaço.</label>
+                            </div>
+
+                        </div>
+                </div>      
+
+                            <div class="checkbox"> 
+
+                                 <div class="checkboxtitulo">
+                                    <h4>.::Quais serviços radicais você tem interesse?::.</h4>
+                                 </div>
+
+                                 <div class="chackboxmemo">
+                                    <input type="checkbox" id="couch" name="couch">
+                                    <label for="couch">Couch Radical</label>
+                                 </div>
+
+                                 <div class="chackboxmemo">
+                                    <input type="checkbox" id="aula" name="aula">
+                                    <label for="aula">Aulas Radicais</label>
+                                 </div>
+                                 
+                                 <div class="chackboxmemo">
+                                    <input type="checkbox" id="roupa" name="roupa">
+                                    <label for="roupa">Roupas Radicais</label>
+                                 </div>
+                                 
+                                 <div class="chackboxmemo">
+                                    <input type="checkbox" id="show" name="show">
+                                    <label for="show">Shows Radicais</label>
+                                 </div>
+
+                                 <div class="chackboxmemo">
+                                    <input type="checkbox" id="outro" name="outro">
+                                    <label for="outro">COISAS MUITO MAIS RADICAIS</label>
+                                 </div>
+                                 
+                            </div>
+
+ 
+                            <div class="dropbox">
+
+                                <form>  
+                                    <label> <h4>Escolhe aqui sua musica preferida do BANDA MORRE:</h4></label>  
+                                    <select>  
+                                    <option value = "Carinho Safadeza"> Carinho Safadeza   
+                                    </option>  
+                                    <option value = "Dona Hilda"> Dona Hilda   
+                                    </option>  
+                                    <option value = "Fernandinho Danilo"> Fernandinho Danilo  
+                                    </option>  
+                                    <option value = "Leva vida na boa"> Leva vida na boa  
+                                    </option>
+                                    <option value = "Tem pessoas que não sabem conversar"> Tem pessoas que não sabem conversar  
+                                    </option>  
+                                    </select>  
+                                    </form>  
+                            </div>
+                            <div>
+                             <p></p><p></p>
+                            </div>
+                            <div class="botaocontinuar">
+                                <button><a href="login.html">Cadastrar</a></button>
+                            </div> 
+                            <div>
+                             <p></p>
+                             <p></p>
+                            </div>
+
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

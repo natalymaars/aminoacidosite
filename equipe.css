@@ -1,0 +1,29 @@
+body{
+    color: #a39cf9;
+    background-color:#443d4e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    header{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    text-align: center;
+    text-justify:distribute;
+}
+.equipe{
+    color: #443d4e;
+    width: 700px;
+    background-color: whitesmoke;
+    border: 5px #3b264f;
+    border-style:double;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto ;
+
+}
+img{
+    width:400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 5px solid #a39cf9;
+}
